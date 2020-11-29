@@ -1,0 +1,61 @@
+/*
+Theme Name: Custom Theme Child
+Theme URI: https://www.github.com/balakarthikeyan/wp-themes
+Author: Balakarthikeyan
+Author URI: https://www.github.com/balakarthikeyan
+Email: balakarthikeya@gmail.com
+Description: Custom Theme for WordPress
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template Name: acetheme-child
+Template: acetheme
+Text Domain: acetheme-child
+Tags: one-column, two-columns, right-sidebar, flexible-header
+*/
+.blog-main {
+    background-color: #def0f5;
+}
+.blog-sidebar {
+    background: #b9ebfa;
+}
+
+.vehicles {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.vehicles::after {
+    content: ".";
+    display: block;
+    clear: both;
+}
+
+.vehicles img {
+    margin: 20px 20px 20px 0px;
+    display: inline-block;
+}
+
+.vehicle-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.vehicles h1 {
+    margin: 0 0 20px 0;
+}
+
+.vehicles p {
+    color: #222;
+    font-style: italic;
+    margin: 10px 0 10px 0;
+}
+
+.vehicles h2 {
+    color: #222;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 5px;
+}
